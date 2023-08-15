@@ -1,4 +1,4 @@
-package com.example.springblog;
+package org.zi.blog;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
