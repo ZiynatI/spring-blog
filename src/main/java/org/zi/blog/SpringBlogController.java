@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.zi.blog.word.Word;
-import org.zi.blog.word.WordStatus;
+import org.zi.blog.domain.Word;
+import org.zi.blog.domain.WordStatus;
 
 
 @Controller

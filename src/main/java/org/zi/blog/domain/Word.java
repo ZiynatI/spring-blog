@@ -1,8 +1,6 @@
-package org.zi.blog.word;
+package org.zi.blog.domain;
 
 import jakarta.persistence.*;
-import org.zi.blog.User;
-import org.zi.blog.word.WordStatus;
 
 @Entity
 @Table(name = "word")
@@ -13,7 +11,9 @@ public class Word {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
+    @Column(name = "wordContent")
     String wordContent;
+    @Column(name = "wordStatus")
     WordStatus wordStatus;
 
     @ManyToOne

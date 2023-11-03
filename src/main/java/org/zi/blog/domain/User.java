@@ -1,7 +1,7 @@
-package org.zi.blog;
+package org.zi.blog.domain;
 
 import jakarta.persistence.*;
-import org.zi.blog.word.Word;
+import org.zi.blog.domain.Word;
 
 import java.util.List;
 @Entity

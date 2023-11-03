@@ -1,9 +1,8 @@
 package org.zi.blog;
 
 import org.springframework.jdbc.core.RowMapper;
-import org.zi.blog.word.Word;
+import org.zi.blog.domain.Word;
 
-import javax.swing.tree.TreePath;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
